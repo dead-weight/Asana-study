@@ -34,39 +34,79 @@
         <div class="tableElement">
             <p>Fields marked with an asterisk (*) are required.</p>
             <div class="inputs1 tile">
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" required>
+                <div class="combine"><label for="firstName">First Name: </label><p> &nbsp * </p></div>
+                <input type="text" id="firstName" placeholder="e.g., John" required>
             </div>
             <div class="inputs2 tile">
-                <label for="secondName">Second Name</label>
-                <input type="text" id="secondName" required>
+                <label for="secondName"><span>Second Name <span class="required">*</span></span></label>
+                <input type="text" id="secondName" placeholder="Piper" required>
             </div>
             <div class="inputs3 tile">
-                <label for="email">Company Email</label>
-                <input type="email" id="email" required>
+                <label for="email"><span>Company Email <span class="required">*</span></span></label>
+                <input type="email" id="email" placeholder="name@company.pog" required>
             </div>
             <div class="inputs4 tile">
                 <label for="number">Phone Number</label>
-                <input type="text" id="number">
+                <input type="tel" id="number" placeholder="+1 555 565 5555">
             </div>
-            <div class="selection1 tile">
-                <label for="country">Country</label>
-                <select id="country" required>
-                    <option>Select</option>
+
+            <div class="selection tile">
+                <label for="country"><span>Country <span class="required">*</span></span></label>
+                <select id="country" class="selector" required>
+                    <option>Select...</option>
                     <option>America</option>
                     <option>everywhere else</option>
                 </select>
             </div>
-            <div class="selection2 tile">
+            <div class="selection tile">
                 <label for="company">Company size</label>
-                <select id="company" required>
+                <select id="company" class="selector" required>
                     <option>Select</option>
                     <option>big</option>
                     <option>smol</option>
                 </select>
+            </div >
+
+            <div class="textArea">
+                <label for="discussion" ><span>What would you like to discuss? <span class="required">*</span></span></label>
+                <textarea id="discussion" class="discussion" cols="125" rows="2" placeholder="Tell us about your team and provide some details about a project or process you would like to track in Asana."></textarea>
+
+            </div>
+
+            <div class="agreeCheckbox">
+                <input id="agree" type="checkbox">
+                <label for="agree"><span>By checking the box and clicking "Submit", you are agreeing to Asana's <a>Privacy Statement</a>.<span class="required"> *</span></span></label>
+            </div>
+            <div class="button submit">
+                <button>Submit</button>
             </div>
         </div>
     </form>
+</div>
+<div class="ourClients">
+    <div class="containerClient">
+        <div class="gridClient">
+            <div class="cell">
+                <img alt="spotify logo" src="https://assets.asana.biz/m/5705f2ad5520f882/original/logo-ratio-Spotify.svg">
+            </div>
+            <div class="cell">
+                <img alt="amazon logo" src="https://assets.asana.biz/m/68c0d0b61f605d86/original/logo-ratio-amazon.svg">
+            </div>
+            <div class="cell">
+                <img alt="proctor-gamble logo" src="https://assets.asana.biz/m/74acc1f8d45fb52d/original/logo-ratio-Procter-and-Gamble.svg">
+            </div>
+            <div class="cell">
+                <img alt="japan-airlines logo" src="https://assets.asana.biz/m/135d02d231b9eda4/original/logo-ratio-Japan-Airlines.svg">
+            </div>
+            <div class="cell">
+                <img alt="accenture logo" src="https://assets.asana.biz/m/2a2d0401157332de/original/logo-ratio-Accenture.svg">
+            </div>
+            <div class="cell" >
+                <img alt="xero logo" src="https://assets.asana.biz/m/2302d8d9b5c24ed2/original/logo-ratio-Xero.svg">
+            </div>
+        </div>
+
+    </div>
 </div>
 </body>
 </html>
