@@ -1,0 +1,52 @@
+/*HEADER*/
+.button button{
+    width: auto;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: Gordita-Medium,sans-serif;
+    border-radius: 3px;
+    background-color: #0D0E10;
+    color: #fff;
+    height: 36px;
+    line-height: 32px;
+    margin: 0;
+    border: 0;
+    padding: 0 16px;
+    text-decoration: none;
+}
+/*TABLE*/
+.submit button{
+    font-size: 16px;
+    padding: 8px 32px;
+    height: 50px; width: 162px;
+}
+
+button:hover{
+    background-color: #ff7381;
+    color: black;
+}
+
+/*SOCIALS*/
+.underliner:hover{
+    text-decoration: underline;
+}
+
+.roundBox:hover{
+    background-color: white;
+    color: #0D0E10;
+}
+
+/*MOBILE APPS*/
+#ios{
+    opacity: 60%;
+}
+#ios:hover{
+    opacity: 100%;
+}
+
+#android{
+    opacity: 60%;
+}
+#android:hover{
+    opacity: 100%;
+}
