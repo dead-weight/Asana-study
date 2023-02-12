@@ -13,12 +13,14 @@
     border: 0;
     padding: 0 16px;
     text-decoration: none;
+    transition: 300ms ease;
 }
 /*TABLE*/
 .submit button{
     font-size: 16px;
     padding: 8px 32px;
     height: 50px; width: 162px;
+    transition: 300ms ease;
 }
 
 button:hover{
@@ -34,18 +36,21 @@ button:hover{
 .roundBox:hover{
     background-color: white;
     color: #0D0E10;
+    transition: 300ms ease-in;
 }
 
 /*MOBILE APPS*/
 #ios{
-    opacity: 60%;
+    opacity: 40%;
+    transition: 300ms ease;
 }
 #ios:hover{
     opacity: 100%;
 }
 
 #android{
-    opacity: 60%;
+    opacity: 40%;
+    transition: 300ms ease;
 }
 #android:hover{
     opacity: 100%;

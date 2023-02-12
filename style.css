@@ -299,6 +299,11 @@ textarea:focus::-webkit-input-placeholder {
     align-items: center;
 }
 
+.socials a{
+    color: unset;
+    text-decoration: unset;
+}
+
 .roundBox{
     width: 32px;
     height: 32px;
